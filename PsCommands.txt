@@ -1,1 +1,3 @@
 Invoke-Command -ComputerName User-pc -ScriptBlock { $cmd = cscript.exe "C:\Users\Public\Pictures\Sample Pictures\FileToMove.vbe" }
+
+Cscript FileToMove.vbe ServerName DomainName None None -server -os -hotfixes -shares -services -hardware -procs -nic -users -groups -assemblies -resources -gpoapplied -hardrives -passwordpol -reg -software -schedtasks -disks -dfs -rights -hba -filesec –auditpol
