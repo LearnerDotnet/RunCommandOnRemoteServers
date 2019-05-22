@@ -7,7 +7,7 @@ param (
 )
 
 # Scan File name
-$ScanFileName = "Scan.vbe"; 
+$ScanFileName = "FileToMove.vbe"; 
 
 # Path for the PowerUserPermissionFix.csv
 try
@@ -27,7 +27,7 @@ foreach($d in $data)
     $serverNameFromFile = $d.ServerName
 
 
-    $C_DrivePath0 ="\\"+$serverNameFromFile+"\C$\Program Files (x86)\UBS AG\Wintel Server Inventory";
+    $C_DrivePath0 ="\\"+$serverNameFromFile+"\C$\Program Files (x86)\Company Name\Parent Inventory";
     $C_DrivePath1 ="\\"+$serverNameFromFile+"\C$\Program Files (x86)";
     $C_DrivePath2 ="\\"+$serverNameFromFile+"\C$\Program Files";
    
