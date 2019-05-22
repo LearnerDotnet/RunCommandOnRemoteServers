@@ -1,0 +1,1 @@
+Invoke-Command -ComputerName User-pc -ScriptBlock { $cmd = cscript.exe "C:\Users\Public\Pictures\Sample Pictures\FileToMove.vbe" }
